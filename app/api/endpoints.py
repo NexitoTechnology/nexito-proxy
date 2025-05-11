@@ -18,13 +18,23 @@ def verify_api_key(x_api_key: str = Header(...)):
 async def get_proxy(
     status: Optional[ProxyStatus] = Query(ProxyStatus.ACTIVE),
     min_score: int = Query(50, ge=0, le=100),
+    include_history: bool = Query(False, description="Include validation history"),
     api_key: str = Depends(verify_api_key)
 ):
     """Get a single valid proxy"""
     proxies = await ProxyService.get_proxies(status=status, min_score=min_score, limit=1)
     if not proxies:
         raise HTTPException(status_code=404, detail="No valid proxies found")
-    return proxies[0]
+    
+    proxy = proxies[0]
+    
+    # Si no se solicita el historial, eliminarlo
+    if not include_history:
+        proxy_dict = proxy.dict()
+        proxy_dict["validation_history"] = []
+        return Proxy(**proxy_dict)
+    
+    return proxy
 
 @router.get("/proxies", response_model=List[Proxy])
 async def get_proxies(

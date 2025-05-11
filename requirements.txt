@@ -1,30 +1,42 @@
-annotated-types==0.7.0
-anyio==4.9.0
-beautifulsoup4==4.13.4
-certifi==2025.4.26
-charset-normalizer==3.4.2
-click==8.2.0
-colorama==0.4.6
-dnspython==2.7.0
-fastapi==0.115.12
-h11==0.16.0
-httpcore==1.0.9
-httpx==0.28.1
-idna==3.10
-loguru==0.7.3
-lxml==5.4.0
-motor==3.7.0
-pydantic==2.11.4
-pydantic_core==2.33.2
-pymongo==4.12.1
-python-dotenv==1.1.0
-requests==2.32.3
-sniffio==1.3.1
-soupsieve==2.7
-starlette==0.46.2
-typing-inspection==0.4.0
-typing_extensions==4.13.2
-urllib3==2.4.0
-uvicorn==0.34.2
-win32_setctime==1.2.0
+# Web framework y dependencias
+fastapi>=0.115.12
+uvicorn>=0.34.2
+starlette>=0.46.2
+
+# Herramientas HTTP y red
+httpx>=0.28.1
+httpcore>=1.0.9
+requests[socks]>=2.32.3
+PySocks>=1.7.1
+urllib3>=2.4.0
+
+# Base de datos
+motor>=3.7.0
+pymongo>=4.12.1
+
+# Análisis y parsing
+beautifulsoup4>=4.13.4
+lxml>=5.4.0
+soupsieve>=2.7
+
+# Utilidades
+python-dotenv>=1.1.0
+loguru>=0.7.3
+pydantic>=2.11.4
 pydantic-settings>=2.0.0
+pydantic_core>=2.33.2
+
+# Dependencias auxiliares
+anyio>=4.9.0
+certifi>=2025.4.26
+charset-normalizer>=3.4.2
+click>=8.2.0
+colorama>=0.4.6
+dnspython>=2.7.0
+h11>=0.16.0
+idna>=3.10
+sniffio>=1.3.1
+typing-inspection>=0.4.0
+typing_extensions>=4.13.2
+annotated-types>=0.7.0
+win32_setctime>=1.2.0
