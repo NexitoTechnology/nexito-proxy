@@ -1,0 +1,123 @@
+2025-05-11 10:52:58.887 | INFO     | app.main:startup_event:45 - Starting Proxy Service...
+2025-05-11 10:52:58.912 | INFO     | app.db.mongodb:connect_to_mongodb:36 - Connected to MongoDB!
+2025-05-11 10:52:58.985 | INFO     | app.db.mongodb:create_indexes:26 - MongoDB indexes created successfully
+2025-05-11 10:52:58.985 | INFO     | app.core.scheduler:start:28 - Starting scheduler
+2025-05-11 10:52:58.986 | INFO     | app.core.scheduler:scrape_job:16 - Starting scheduled scraping job
+2025-05-11 10:52:58.986 | INFO     | app.services.scraper_service:scrape_all:27 - Starting scraping from 1 sources
+2025-05-11 10:52:58.987 | INFO     | app.services.scraper_service:scrape_all:31 - Scraping from free_proxy_list
+2025-05-11 10:52:59.621 | WARNING  | app.scrapers.free_proxy_list_scraper:scrape:24 - No proxy table found on https://free-proxy-list.net/
+2025-05-11 10:52:59.621 | WARNING  | app.services.scraper_service:scrape_all:41 - No proxies scraped from free_proxy_list
+2025-05-11 10:52:59.622 | INFO     | app.services.scraper_service:scrape_all:46 - Scraping completed. Added 0 proxies in total
+2025-05-11 10:52:59.622 | INFO     | app.core.scheduler:validate_job:22 - Starting scheduled validation job
+2025-05-11 10:52:59.625 | INFO     | app.validators.proxy_validator:validate_all:113 - Starting validation of 0 proxies
+2025-05-11 10:52:59.634 | INFO     | app.validators.proxy_validator:validate_all:143 - Validation completed: 0 working, 0 failed, 0 blocked
+2025-05-11 10:52:59.634 | INFO     | app.core.scheduler:start:39 - Sleeping for 21600 seconds until next job
+2025-05-11 10:58:40.415 | INFO     | app.services.scraper_service:scrape_all:27 - Starting scraping from 1 sources
+2025-05-11 10:58:40.416 | INFO     | app.services.scraper_service:scrape_all:31 - Scraping from free_proxy_list
+2025-05-11 10:58:40.903 | WARNING  | app.scrapers.free_proxy_list_scraper:scrape:24 - No proxy table found on https://free-proxy-list.net/
+2025-05-11 10:58:40.903 | WARNING  | app.services.scraper_service:scrape_all:41 - No proxies scraped from free_proxy_list
+2025-05-11 10:58:40.903 | INFO     | app.services.scraper_service:scrape_all:46 - Scraping completed. Added 0 proxies in total
+2025-05-11 11:01:38.594 | INFO     | app.main:startup_event:45 - Starting Proxy Service...
+2025-05-11 11:01:38.624 | INFO     | app.db.mongodb:connect_to_mongodb:36 - Connected to MongoDB!
+2025-05-11 11:01:38.632 | INFO     | app.db.mongodb:create_indexes:26 - MongoDB indexes created successfully
+2025-05-11 11:01:38.632 | INFO     | app.core.scheduler:start:28 - Starting scheduler
+2025-05-11 11:01:38.632 | INFO     | app.core.scheduler:scrape_job:16 - Starting scheduled scraping job
+2025-05-11 11:01:38.632 | INFO     | app.services.scraper_service:scrape_all:29 - Starting scraping from 2 sources
+2025-05-11 11:01:38.633 | INFO     | app.services.scraper_service:scrape_all:33 - Scraping from free_proxy_list
+2025-05-11 11:01:39.186 | WARNING  | app.scrapers.free_proxy_list_scraper:scrape:24 - No proxy table found on https://free-proxy-list.net/
+2025-05-11 11:01:39.187 | WARNING  | app.services.scraper_service:scrape_all:43 - No proxies scraped from free_proxy_list
+2025-05-11 11:01:39.187 | INFO     | app.services.scraper_service:scrape_all:33 - Scraping from geonode
+2025-05-11 11:01:39.777 | INFO     | app.scrapers.base_scraper:log_result:65 - Scraped 50 proxies from geonode
+2025-05-11 11:01:39.781 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 51.83.93.105:20479
+2025-05-11 11:01:39.784 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 89.38.97.60:12110
+2025-05-11 11:01:39.787 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 47.88.59.79:82
+2025-05-11 11:01:39.789 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 82.117.212.114:4145
+2025-05-11 11:01:39.792 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 178.63.237.156:80
+2025-05-11 11:01:39.795 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 89.58.57.45:80
+2025-05-11 11:01:39.798 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 159.89.194.121:56063
+2025-05-11 11:01:39.801 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 164.132.28.219:80
+2025-05-11 11:01:39.804 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 123.186.146.68:8088
+2025-05-11 11:01:39.807 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 95.213.154.54:31337
+2025-05-11 11:01:39.809 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 185.18.198.163:58714
+2025-05-11 11:01:39.812 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 185.88.177.197:8080
+2025-05-11 11:01:39.815 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 89.58.52.160:80
+2025-05-11 11:01:39.818 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 67.206.213.202:3120
+2025-05-11 11:01:39.820 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 8.219.97.248:80
+2025-05-11 11:01:39.823 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 46.249.123.26:8080
+2025-05-11 11:01:39.825 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 95.213.217.168:52004
+2025-05-11 11:01:39.828 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 182.53.96.56:4145
+2025-05-11 11:01:39.831 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 103.63.26.119:8080
+2025-05-11 11:01:39.833 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 103.245.205.226:6969
+2025-05-11 11:01:39.836 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 190.2.143.81:8888
+2025-05-11 11:01:39.838 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 58.69.161.62:8082
+2025-05-11 11:01:39.841 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 93.127.202.239:3128
+2025-05-11 11:01:39.843 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 185.105.102.189:80
+2025-05-11 11:01:39.846 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 185.105.102.179:80
+2025-05-11 11:01:39.849 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 154.38.177.113:10679
+2025-05-11 11:01:39.853 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 162.144.103.99:24364
+2025-05-11 11:01:39.855 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 72.10.160.92:13833
+2025-05-11 11:01:39.858 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 72.10.164.178:20815
+2025-05-11 11:01:39.860 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 190.225.182.14:999
+2025-05-11 11:01:39.863 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 85.215.64.49:80
+2025-05-11 11:01:39.866 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 201.77.96.160:999
+2025-05-11 11:01:39.869 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 41.242.69.196:5678
+2025-05-11 11:01:39.871 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 185.5.155.104:8080
+2025-05-11 11:01:39.874 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 154.66.108.32:3629
+2025-05-11 11:01:39.876 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 43.153.172.76:443
+2025-05-11 11:01:39.879 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 37.131.165.19:59341
+2025-05-11 11:01:39.882 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 31.43.122.180:51372
+2025-05-11 11:01:39.884 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 195.16.78.236:1080
+2025-05-11 11:01:39.886 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 198.251.89.198:51675
+2025-05-11 11:01:39.889 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 104.168.87.16:1080
+2025-05-11 11:01:39.891 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 103.109.56.221:1080
+2025-05-11 11:01:39.894 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 202.165.38.185:17538
+2025-05-11 11:01:39.897 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 202.40.186.157:4145
+2025-05-11 11:01:39.900 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 177.39.211.113:1080
+2025-05-11 11:01:39.902 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 80.191.169.79:4145
+2025-05-11 11:01:39.905 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 193.84.184.25:5678
+2025-05-11 11:01:39.907 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 178.32.112.229:60289
+2025-05-11 11:01:39.909 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 80.241.44.34:5678
+2025-05-11 11:01:39.913 | INFO     | app.services.proxy_service:add_proxy:43 - Added new proxy: 184.174.75.86:51724
+2025-05-11 11:01:39.913 | INFO     | app.services.scraper_service:scrape_all:41 - Added 50 proxies from geonode
+2025-05-11 11:01:39.913 | INFO     | app.services.scraper_service:scrape_all:48 - Scraping completed. Added 50 proxies in total
+2025-05-11 11:01:39.913 | INFO     | app.core.scheduler:validate_job:22 - Starting scheduled validation job
+2025-05-11 11:01:39.916 | INFO     | app.validators.proxy_validator:validate_all:113 - Starting validation of 50 proxies
+2025-05-11 11:01:39.943 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 10/50 proxies
+2025-05-11 11:01:39.963 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 20/50 proxies
+2025-05-11 11:01:39.982 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 30/50 proxies
+2025-05-11 11:01:39.999 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 40/50 proxies
+2025-05-11 11:01:40.016 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 50/50 proxies
+2025-05-11 11:01:40.024 | INFO     | app.validators.proxy_validator:validate_all:143 - Validation completed: 0 working, 50 failed, 0 blocked
+2025-05-11 11:01:40.024 | INFO     | app.core.scheduler:start:39 - Sleeping for 21600 seconds until next job
+2025-05-11 11:02:17.012 | INFO     | app.main:startup_event:45 - Starting Proxy Service...
+2025-05-11 11:02:17.027 | INFO     | app.db.mongodb:connect_to_mongodb:36 - Connected to MongoDB!
+2025-05-11 11:02:17.035 | INFO     | app.db.mongodb:create_indexes:26 - MongoDB indexes created successfully
+2025-05-11 11:02:17.036 | INFO     | app.core.scheduler:start:28 - Starting scheduler
+2025-05-11 11:02:17.036 | INFO     | app.core.scheduler:scrape_job:16 - Starting scheduled scraping job
+2025-05-11 11:02:17.036 | INFO     | app.services.scraper_service:scrape_all:29 - Starting scraping from 2 sources
+2025-05-11 11:02:17.036 | INFO     | app.services.scraper_service:scrape_all:33 - Scraping from free_proxy_list
+2025-05-11 11:02:17.557 | WARNING  | app.scrapers.free_proxy_list_scraper:scrape:24 - No proxy table found on https://free-proxy-list.net/
+2025-05-11 11:02:17.557 | WARNING  | app.services.scraper_service:scrape_all:43 - No proxies scraped from free_proxy_list
+2025-05-11 11:02:17.558 | INFO     | app.services.scraper_service:scrape_all:33 - Scraping from geonode
+2025-05-11 11:02:18.042 | INFO     | app.scrapers.base_scraper:log_result:65 - Scraped 50 proxies from geonode
+2025-05-11 11:02:18.178 | INFO     | app.services.scraper_service:scrape_all:41 - Added 50 proxies from geonode
+2025-05-11 11:02:18.178 | INFO     | app.services.scraper_service:scrape_all:48 - Scraping completed. Added 50 proxies in total
+2025-05-11 11:02:18.178 | INFO     | app.core.scheduler:validate_job:22 - Starting scheduled validation job
+2025-05-11 11:02:18.181 | INFO     | app.validators.proxy_validator:validate_all:113 - Starting validation of 50 proxies
+2025-05-11 11:02:18.210 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 10/50 proxies
+2025-05-11 11:02:18.230 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 20/50 proxies
+2025-05-11 11:02:18.251 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 30/50 proxies
+2025-05-11 11:02:18.271 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 40/50 proxies
+2025-05-11 11:02:18.289 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 50/50 proxies
+2025-05-11 11:02:18.298 | INFO     | app.validators.proxy_validator:validate_all:143 - Validation completed: 0 working, 50 failed, 0 blocked
+2025-05-11 11:02:18.298 | INFO     | app.core.scheduler:start:39 - Sleeping for 21600 seconds until next job
+2025-05-11 11:02:55.164 | INFO     | app.services.scraper_service:scrape_source:73 - Scraping from geonode
+2025-05-11 11:02:55.661 | INFO     | app.scrapers.base_scraper:log_result:65 - Scraped 50 proxies from geonode
+2025-05-11 11:02:55.799 | INFO     | app.services.scraper_service:scrape_source:79 - Added 50 proxies from geonode
+2025-05-11 11:04:46.118 | INFO     | app.validators.proxy_validator:validate_all:113 - Starting validation of 50 proxies
+2025-05-11 11:04:46.137 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 10/50 proxies
+2025-05-11 11:04:46.155 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 20/50 proxies
+2025-05-11 11:04:46.172 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 30/50 proxies
+2025-05-11 11:04:46.188 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 40/50 proxies
+2025-05-11 11:04:46.204 | INFO     | app.validators.proxy_validator:validate_all:132 - Validated 50/50 proxies
+2025-05-11 11:04:46.212 | INFO     | app.validators.proxy_validator:validate_all:143 - Validation completed: 0 working, 50 failed, 0 blocked
